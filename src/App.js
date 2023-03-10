@@ -7,7 +7,7 @@ export default function App() {
 
   return (
     <BrowserRouter>
-      <Link to="/">Home</Link>
+      <Link to="https://alexrafeh.github.io/react-app/">Home</Link>
       <Link to="/about">About</Link>
       <Routes>
         <Route path="/" element={<Home />} />
